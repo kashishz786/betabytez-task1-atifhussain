@@ -1,6 +1,6 @@
 # Responsive Portfolio Website
 
-This is my responsive portfolio website created using pure HTML, CSS, and JavaScript.
+This is my responsive portfolio website created using pure HTML, CSS, and JavaScript. I used AI only to a small extent for media queries, and the Google Fonts links in the "<head>" section were taken from Google Fonts. Apart from that, I developed the entire project myself.
 
 ## Features
 
