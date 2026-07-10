@@ -38,7 +38,7 @@ README.md
 
 ### Mobile View
 <img width="1127" height="728" alt="Screenshot 2026-07-10 174729" src="https://github.com/user-attachments/assets/e5962bb5-6dd7-41fd-af22-a975ee7b5ea6" />
-<img width="270" height="305" alt="image" src="https://github.com/user-attachments/assets/c860cdff-86d7-4716-890a-8d317b63bfb5" />
+<img width="333" height="597" alt="Screenshot 2026-07-10 174738" src="https://github.com/user-attachments/assets/16b39990-0fa4-4977-a0ca-c3a5dc0311a0" />
 <img width="270" height="305" alt="Screenshot 2026-07-10 174758" src="https://github.com/user-attachments/assets/3c63ad1c-8126-4ff5-957e-e257a7125154" />
 
 
