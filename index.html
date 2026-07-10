@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+                                                        <!--Hero/Home Section-->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+    
+            <h1>Atif Hussain</h1>
+    
+            <h2>Software Engineer</h2>
+    
+            <p> I create responsive websites and enjoy learning modern web <br> technologies. My goal is to build useful, attractive, and<br> user-friendly web applications. </p>
+ 
+            <br>
+ 
+            <a href="#projects" class="btn">View My Projects</a>
+    
+    </div>
+    
+</section>
+<br>
+                                                        <!--About Section-->
+
+<section id="about" class = Aboutus >
+
+    <div>
+        <h2 >About</h2>
+        <p> Hello! My name is Atif Hussain. I am a Student in Lahore Garrison University<br> in Software Engineering. I have completed my 6 Semesters and
+        i have a strong interest <br> in web development and in graphic designing. My goal is to become a professional <br> Full Stack Developer </p>
+    </div>
+
+</section>
+
+<br>
+
+                                                        <!--Skills Section-->
+
+<section id="skills">
+
+        <h2 class="section-title">My Skills</h2>
+    
+        <div class="skill">
+    
+            <span>HTML</span>
+    
+            <div class="progress-bar">
+                <div class="progress html">90%</div>
+            </div>
+    
+        </div>
+    
+        <div class="skill">
+    
+            <span>CSS</span>
+    
+            <div class="progress-bar">
+                <div class="progress css">85%</div>
+            </div>
+    
+        </div>
+    
+        <div class="skill">
+    
+            <span>JavaScript</span>
+    
+            <div class="progress-bar">
+                <div class="progress js">75%</div>
+            </div>
+    
+        </div>
+    
+        <div class="skill">
+    
+            <span>React</span>
+    
+            <div class="progress-bar">
+                <div class="progress react">70%</div>
+            </div>
+    
+        </div>
+    
+</section>
+
+                                                        <!--Projects Section-->
+
+<section id="projects">
+
+        <h2 class="section-title">Projects</h2>
+    
+        <div class="projects-container">
+    
+            <div class="project-card">
+    
+                <h3>Portfolio Website</h3>
+    
+                <p> Responsive portfolio website built using HTML, CSS and JavaScript. </p>
+    
+                <a href="#" class="project-btn"> View Project </a>
+    
+            </div>
+    
+            <div class="project-card">
+    
+                <h3>Bank Management System</h3>
+    
+                <p> Banking dashboard for managing customer accounts and transactions. </p>
+    
+                <a href="#" class="project-btn">View Project </a>
+    
+            </div>
+    
+        </div>
+    
+</section>
+
+                                                        <!--Contact Section-->
+
+<section id="contact">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <form id="contactForm">
+
+        <input type="text"  id="name"  placeholder="Enter Your Name">
+
+        <input type="email" id="email" placeholder="Enter Your Email">
+
+        <textarea id="message" rows="5" placeholder="Enter Your Message"></textarea>
+
+        <button type="submit"> Send Message </button>
+
+    </form>
+</section>
+
+                                              <!--front-end validation using JavaScript-->
+
+<script>
+document
+.getElementById("contactForm")
+.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    let name = document.getElementById("name").value.trim();
+
+    let email = document.getElementById("email").value.trim();
+
+    let message = document.getElementById("message").value.trim();
+
+    if(name === ""){
+        alert("Enter your name");
+        return;
+    }
+
+    if(email === ""){
+        alert("Enter your email");
+        return;
+    }
+
+    if(message === ""){
+        alert("Enter your message");
+        return;
+    }
+
+    alert("Form submitted successfully!");
+
+    this.reset();
+
+});
+</script>
+
+
+</body>
+</html>

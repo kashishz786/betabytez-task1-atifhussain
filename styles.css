@@ -1,0 +1,295 @@
+
+                                            /* Hero/Home Section */
+
+.hero{
+    background-repeat: no-repeat;
+    background-image: url(image.jpg);
+    background-size: cover;
+    
+    color: white;
+    height: 500px;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content{
+    width: 500px;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px;
+    text-decoration:none;
+}
+.btn:hover{
+   background: green;
+    
+}
+
+                                            /* About Section */
+
+.Aboutus h2{
+ margin-bottom: 0px; 
+}
+
+.Aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+                                            /* Skills Section */
+
+#skills{
+    padding: 6px 20%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.skill{
+    margin-bottom:25px;
+}
+
+
+.progress-bar{
+    width:100%;
+    height:25px;
+    background:#ddd;
+    border-radius:30px;
+    margin-top:10px;
+}
+
+.progress{
+    height:100%;
+    line-height:25px;
+    text-align:right;
+    padding-right:10px;
+    color:white;
+    border-radius:30px;
+}
+
+.html{
+    width:90%;
+    background:orange;
+}
+
+.css{
+    width:85%;
+    background:dodgerblue;
+}
+
+.js{
+    width:75%;
+    background:gold;
+}
+
+.react{
+    width:70%;
+    background:blueviolet;
+}
+
+                                            /* Projects Section */
+
+#projects{
+    padding:60px 10%;
+    background:#f5f5f5;
+}
+
+.projects-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    width:300px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px  rgba(12, 12, 12, 0.352);
+}
+
+.project-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.project-btn:hover{
+    background:green;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+                                            /* Contact Section */
+
+#contact{
+    padding:30px 10%;
+}
+
+#contactForm{
+    max-width:600px;
+    margin:auto;
+}
+
+#contactForm input{
+    width:95.5%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+#contactForm textarea{
+    width:95.5%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+#contactForm button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:black;
+    color:white;
+    border-radius:5px;
+    
+}
+
+#contactForm button:hover{
+    background:green;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+                                /* Responsiveness 768px for tablet */
+
+                                
+@media (max-width:768px){
+
+    .hero{
+        height: auto;
+        padding: 80px 20px;
+    }
+    
+    .hero-content{
+        width:100%;
+    }
+    
+    .hero-content h1{
+        font-size:40px;
+    }
+    
+    .hero-content h2{
+        font-size:28px;
+    }
+    
+    .hero-content p{
+        font-size:16px;
+        line-height:1.7;
+    }
+    
+    #skills{
+        padding:50px 8%;
+    }
+    
+    #projects{
+        padding:50px 8%;
+    }
+    
+    #contact{
+        padding:50px 8%;
+    }
+    
+    .projects-container{
+        justify-content:center;
+    }
+    
+    .project-card{
+        width:90%;
+        max-width:400px;
+    }
+    
+    }
+
+                                    /* Responsiveness 480px for Mobile */
+
+@media (max-width:480px){
+
+    .hero{
+        text-align:center;
+        padding:60px 15px;
+    }
+    
+    .hero-content h1{
+        font-size:32px;
+    }
+    
+    .hero-content h2{
+        font-size:22px;
+    }
+    
+    .hero-content p{
+        font-size:15px;
+    }
+    
+    .hero-content p br{
+        display:none;
+    }
+    
+    .Aboutus p br{
+        display:none;
+    }
+    
+    #skills{
+        padding:40px 20px;
+    }
+    
+    #projects{
+        padding:40px 20px;
+    }
+    
+    #contact{
+        padding:40px 20px;
+    }
+    
+    .project-card{
+        width:100%;
+    }
+    
+    #contactForm input,
+    #contactForm textarea{
+        width:100%;
+    }
+    
+    .btn{
+        display:inline-block;
+        margin-top:20px;
+    }
+    
+    }
